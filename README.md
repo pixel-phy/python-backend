@@ -1,4 +1,4 @@
-Esta es la ruta que estoy siguiendo para backend:
+Esta es la ruta de aprendizaje que planeo seguir para aprender Backend:
 
 - ✅ Fundamentos de python. 
 
