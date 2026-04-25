@@ -1,6 +1,6 @@
 Esta es la ruta que estoy siguiendo para backend:
 
-- ✅ Python fundamentals (estás aquí)
+- ✅ Fundamentos de python. 
 
 - Git y control de versiones
 
