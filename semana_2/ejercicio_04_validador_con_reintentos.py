@@ -18,31 +18,33 @@ Requisitos:
 - Usar break si el acceso es exitoso.
 - Usar continue si algún campo está vacío (sin contar como intento)"""
 
-print("\n--- Validador de intentos usuario ---\n")
-#Entradas
+print("\n=== VALIDADOR DE LOGIN ===\n")
+
+usuario_correcto = "admin"
+contrasena_correcta = "1234"
+
 for intento in range(1, 4):
     print(f"Intento {intento} de 3\n")
+    
+    # Validar usuario (no vacío)
     entrada_usuario = input("Usuario: ").strip().lower()
     while entrada_usuario == "":
-        print("Usuario vacío. Intente de nuevo.\n")
+        print("❌ Usuario vacío. Intente de nuevo.\n")
         entrada_usuario = input("Usuario: ").strip().lower()
-        continue
-    entrada_contraseña = input("Contraseña: ").strip()
-    while entrada_contraseña == "":
-        print("Contraseña vacía. Intente nuevamente.\n")
+    
+    # Validar contraseña (no vacía)
+    entrada_contrasena = input("Contraseña: ").strip()
+    while entrada_contrasena == "":
+        print("❌ Contraseña vacía. Intente de nuevo.\n")
+        entrada_contrasena = input("Contraseña: ").strip()
+    
+    # Verificar credenciales
+    if entrada_usuario == usuario_correcto and entrada_contrasena == contrasena_correcta:
+        print("✅ Acceso concedido")
         break
-    if entrada_usuario == "admin" and entrada_contraseña == "1234":
-        print("✅ Acceso concedido.")
-        break
-    elif entrada_usuario != "admin" and entrada_contraseña == "1234":
-        print(f"Usuario incorrecto! Te quedan {3 - intento} intentos.\n")
-        continue
-    elif entrada_usuario == "admin" and entrada_contraseña != "1234":
-        print(f"Contraseña incorrecta! Te quedan {3 - intento} intentos.\n")
-        continue
-    elif intento == 3:
-        print(f"\nTe quedan {3 - intento} intentos.")
-        print("\n❌ Cuenta bloqueada.\n")
     else:
-        print(f"Contraseña y usuarios incorrectos! Te quedan {3 - intento} intentos.\n")
-        continue
+        intentos_restantes = 3 - intento
+        if intentos_restantes > 0:
+            print(f"❌ Credenciales incorrectas. Te quedan {intentos_restantes} intento(s)\n")
+        else:
+            print("❌ Cuenta bloqueada")
