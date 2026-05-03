@@ -1,6 +1,9 @@
 Python Learning - Semana 2: Estructuras de control
+
 📚 Semana 2: Bucles FOR & WHILE
+
 Ejercicios completados:
+
 ✅ Ejercicios preliminares de lógica.
 ✅ Menú interactivo.
 ✅ Tablas de multiplicar.
