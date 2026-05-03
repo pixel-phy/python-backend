@@ -12,4 +12,6 @@ Temas a cubrir:
 - Proyecto integrador de Strings.
 
 Ejercicios completados:
+- ✅ Ejercicios de lógica básicos (Indexación, slicing, métodos básicos)
+- ✅ Extracción de dominio de correo electrónico ingresado por usuario.
 
