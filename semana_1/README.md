@@ -1,6 +1,9 @@
 Python Learning - Semana 1: Variables, operadores y condicionales.
+
 📚 Semana 1: Variables, tipos de datos y operadores
+
 Ejercicios completados:
+
 - ✅ Ejercicio práctico de lógica.
 - ✅ Operadores aritméticos.
 - ✅ Bases condicionales.
