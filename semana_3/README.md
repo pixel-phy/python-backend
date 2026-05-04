@@ -17,4 +17,5 @@ Ejercicios completados:
 - ✅ Validador de placas (3 letras mayúsculas + 3 números)
 - ✅ Validador de nombre de usuario (cumpla con reglas)
 - ✅ Extractor de iniciales de nombres.
+- ✅ Proyecto integrador de la semana.
 
