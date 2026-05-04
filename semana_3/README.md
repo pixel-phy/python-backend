@@ -15,4 +15,6 @@ Ejercicios completados:
 - ✅ Ejercicios de lógica básicos (Indexación, slicing, métodos básicos)
 - ✅ Extracción de dominio de correo electrónico ingresado por usuario.
 - ✅ Validador de placas (3 letras mayúsculas + 3 números)
+- ✅ Validador de nombre de usuario (cumpla con reglas)
+- ✅ Extractor de iniciales de nombres.
 
