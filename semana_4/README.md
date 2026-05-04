@@ -12,3 +12,8 @@ Temas a cubrir:
 
 Ejercicios completados:
 
+- ✅ Creación y acceso a elementos.
+- ✅ Slicing y mostrar rangos.
+- ✅ Modificar elementos.
+- ✅ Gestión de tareas.
+- ✅ Extraer pares e impares de una lista de números.
