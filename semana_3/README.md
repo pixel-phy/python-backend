@@ -14,4 +14,5 @@ Temas a cubrir:
 Ejercicios completados:
 - ✅ Ejercicios de lógica básicos (Indexación, slicing, métodos básicos)
 - ✅ Extracción de dominio de correo electrónico ingresado por usuario.
+- ✅ Validador de placas (3 letras mayúsculas + 3 números)
 
