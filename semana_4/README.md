@@ -18,3 +18,6 @@ Ejercicios completados:
 - ✅ Gestión de tareas.
 - ✅ Extraer pares e impares de una lista de números.
 - ✅ Algoritmo de ordenamiento burbuja.
+    - ✅ Algoritmo de ordenamiento burbuja en letras.
+    - ✅ Algoritmo de ordenamiento burbuja en palabras.
+    - ✅ Algoritmo de ordenamiento burbuja de mayor a menor.
