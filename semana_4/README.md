@@ -21,3 +21,6 @@ Ejercicios completados:
     - ✅ Algoritmo de ordenamiento burbuja en letras.
     - ✅ Algoritmo de ordenamiento burbuja en palabras.
     - ✅ Algoritmo de ordenamiento burbuja de mayor a menor.
+- ✅ Aplicando los métodos básicos.
+- ✅ Copia vs Referencia (Muy importante a la hora de trabajar con listas en Backend)
+- ✅ Comprension de listas (expresion for elemento in lista if condicion)
