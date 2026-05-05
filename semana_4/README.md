@@ -24,3 +24,7 @@ Ejercicios completados:
 - ✅ Aplicando los métodos básicos.
 - ✅ Copia vs Referencia (Muy importante a la hora de trabajar con listas en Backend)
 - ✅ Comprension de listas (expresion for elemento in lista if condicion)
+- ✅ enumerate()
+- ✅ zip()
+- ✅ Ejercicio práctico integrador de conceptos.
+- ✅ Sistema de inventario (Se aplica mucho de lo aprendido hasta el momento)
