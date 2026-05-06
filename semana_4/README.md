@@ -9,6 +9,7 @@ Temas a cubrir:
 - Iteración de listas.
 - Métodos básicos:
     - (append(), extend(), insert(), remove(), pop(), reverse(), sort(), index())
+- Listas anidadas (Matrices).
 
 Ejercicios completados:
 
@@ -17,7 +18,8 @@ Ejercicios completados:
 - ✅ Modificar elementos.
 - ✅ Ejercicios de lógica:
     - ✅ Matriz 3 x 3
-    - ✅ Matriz 2 x 4
+    - ✅ Matriz 2 x 5
+    - ✅ Matriz 4 x 3
 - ✅ Gestión de tareas.
 - ✅ Extraer pares e impares de una lista de números.
 - ✅ Algoritmo de ordenamiento burbuja.
