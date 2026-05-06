@@ -28,8 +28,10 @@ Ejercicios completados:
 - ✅ zip()
 - ✅ Ejercicio práctico integrador de conceptos.
 - ✅ Sistema de inventario (Se aplica mucho de lo aprendido hasta el momento)
-- ✅ Listas anidadas
-- ✅ Suma de elementos de una matriz
-- ✅ Suma filas de una matriz
-- ✅ Suma de columnas en una matriz
-- ✅ Ejercicio integrador de calificaciones
+- ✅ Listas anidadas:
+    - ✅ Suma de elementos de una matriz
+    - ✅ Suma filas de una matriz
+    - ✅ Suma de columnas en una matriz
+    - ✅ Ejercicio práctico de calificaciones
+    - ✅ Ejercicio práctico de matriz de ventas
+    - ✅ Ejercicio práctico de asistentes a evento.
