@@ -40,4 +40,4 @@ Ejercicios completados:
     - ✅ Ejercicio práctico de calificaciones
     - ✅ Ejercicio práctico de matriz de ventas
     - ✅ Ejercicio práctico de asistentes a evento.
-    
+    - ✅ Ejercicio práctico de estudiantes
