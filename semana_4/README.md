@@ -15,6 +15,9 @@ Ejercicios completados:
 - ✅ Creación y acceso a elementos.
 - ✅ Slicing y mostrar rangos.
 - ✅ Modificar elementos.
+- ✅ Ejercicios de lógica:
+    - ✅ Matriz 3 x 3
+    - ✅ Matriz 2 x 4
 - ✅ Gestión de tareas.
 - ✅ Extraer pares e impares de una lista de números.
 - ✅ Algoritmo de ordenamiento burbuja.
@@ -35,3 +38,4 @@ Ejercicios completados:
     - ✅ Ejercicio práctico de calificaciones
     - ✅ Ejercicio práctico de matriz de ventas
     - ✅ Ejercicio práctico de asistentes a evento.
+    
