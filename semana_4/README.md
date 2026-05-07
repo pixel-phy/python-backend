@@ -42,3 +42,5 @@ Ejercicios completados:
     - ✅ Ejercicio práctico de asistentes a evento.
     - ✅ Ejercicio práctico de estudiantes
     - ✅ Ejercicio práctico de temperaturas
+- ✅ Sistema de películas
+- ✅ Inventario de productos
