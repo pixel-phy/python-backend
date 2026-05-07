@@ -1,13 +1,23 @@
-Esta es la ruta de aprendizaje que planeo seguir para aprender Backend:
+📚 Ruta de aprendizaje para desarrollador Backend:
 
 - ✅ Fundamentos de python. 
 
-- Git y control de versiones
+- ❌ Control de versiones Git.
 
-- Bases de datos SQL
+- ❌ Bases de datos SQL
 
-- APIs REST
+- ❌ Bases de datos NoSQL.
 
-- Frameworks (FastAPI/Django)
+- ❌ Frameworks (FastAPI/Django)
 
-- Docker y despliegue
+- ❌ APIs REST y comunicación.
+
+- ❌ Arquitectura y diseño de sistemas.
+
+- ❌ DevOPS, Docker y despliegue.
+
+- ❌ Seguridad.
+
+- ❌ Motores de búsqueda.
+
+- ❌ Proyectos finales de integración.

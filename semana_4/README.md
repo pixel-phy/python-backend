@@ -41,3 +41,4 @@ Ejercicios completados:
     - ✅ Ejercicio práctico de matriz de ventas
     - ✅ Ejercicio práctico de asistentes a evento.
     - ✅ Ejercicio práctico de estudiantes
+    - ✅ Ejercicio práctico de temperaturas
