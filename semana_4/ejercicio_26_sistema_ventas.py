@@ -35,7 +35,7 @@ for venta in ventas:
     total_general += total_venta
 print(f"\nTotal acumulado: ${total_general}")
 
-# 3. Total por vendedor (sin diccionarios)
+# 3. Total por vendedor
 vendedores = []
 totales_vendedor = []
 
