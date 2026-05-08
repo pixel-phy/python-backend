@@ -44,3 +44,11 @@ Ejercicios completados:
     - ✅ Ejercicio práctico de temperaturas
 - ✅ Sistema de películas
 - ✅ Inventario de productos
+- ✅ Sistema de calificaciones
+- Otros ejercicios de comprensión de listas:
+    - ✅ Filtrado y transformación de precios.
+    - ✅ Cuadrados.
+    - ✅ Números pares.
+    - ✅ Números pares y sus cuadrados.
+    - ✅ Transformar strings.
+    - ✅ Filtrar palabras largas.
