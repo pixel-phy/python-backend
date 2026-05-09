@@ -47,7 +47,7 @@ for i in range(len(temperaturas)):
 # Promedio de temperaturas por día
 print("\nPromedio de temperaturas por día:\n")
 
-for i in range(len(temperaturas)):
+for i in range(ciudades):
     for j in range(ciudades):
         acumulador[j] += temperaturas[i][j]
 for j in range(ciudades):

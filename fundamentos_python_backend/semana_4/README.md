@@ -52,3 +52,7 @@ Ejercicios completados:
     - ✅ Números pares y sus cuadrados.
     - ✅ Transformar strings.
     - ✅ Filtrar palabras largas.
+- ✅ Repaso métodos de listas.
+- ✅ Ejercicio de matrices (sumas, promedios máximos).
+- ✅ Comprensión de listas (filtros y transformacines).
+- ✅ Ejercicio integrador de práctica.
