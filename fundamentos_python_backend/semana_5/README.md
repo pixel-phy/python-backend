@@ -23,12 +23,12 @@ semana_5/
 
 | Ejercicio | Tema | Conceptos clave |
 |-----------|------|-----------------|
-| **M39** | Repaso básico | Creación, indexación, slicing |
-| **M40** | Métodos de listas | `append`, `insert`, `remove`, `pop`, `index`, `count`, `sort`, `reverse` |
-| **M41** | List comprehension | Filtros, transformaciones, condiciones múltiples |
-| **M42** | Matrices | Listas anidadas, sumas, promedios, máximos |
-| **M43** | Ejercicios integradores | Inventario, compras, calificaciones |
-| **M44** | Sistema de contactos | Proyecto pequeño (sin diccionarios) |
+| **E01** | Repaso básico | Creación, indexación, slicing |
+| **E02** | Métodos de listas | `append`, `insert`, `remove`, `pop`, `index`, `count`, `sort`, `reverse` |
+| **E03** | List comprehension | Filtros, transformaciones, condiciones múltiples |
+| **E04** | Matrices | Listas anidadas, sumas, promedios, máximos |
+| **E05** | Ejercicios integradores | Inventario, compras, calificaciones |
+| **E06** | Sistema de contactos | Proyecto pequeño |
 | **Proyecto** | Sistema de gestión de estudiantes | Proyecto integrador final |
 
 ---
