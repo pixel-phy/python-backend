@@ -56,3 +56,4 @@ Ejercicios completados:
 - ✅ Ejercicio de matrices (sumas, promedios máximos).
 - ✅ Comprensión de listas (filtros y transformacines).
 - ✅ Ejercicio integrador de práctica.
+- ✅ Proyecto integrador.
