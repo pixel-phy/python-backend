@@ -32,16 +32,19 @@ semana_6_pilas_colas/
 | Día | Ejercicio | Tema | Concepto clave |
 |-----|-----------|------|----------------|
 | Lunes | S1 | Pilas con listas | `append()`, `pop()` |
-| Lunes | S2 | Ejercicios de pilas | Simular "deshacer" |
-| Lunes | S3 | Ejercicios de pilas | Simular "deshacer" |
-| Martes | S4 | Colas con `deque` | `from collections import deque`, `popleft()` |
-| Martes | S5 | Ejercicios de colas | Simular fila de banco |
-| Miércoles | S6 | Validar paréntesis | Algoritmo clásico con pilas |
-| Miércoles | S7 | Invertir cadena | Usando pila |
-| Jueves | S8 | Simular fila | Atención al cliente |
-| Jueves | S9 | Procesar lotes | Colas de tareas |
-| Viernes | S10 | Ejercicios integradores | Combinar pilas y colas |
-| Sábado | S12 | Repaso | Ejercicios variados |
+| Lunes | S2 | Ejercicio de pilas | Simular "deshacer" |
+| Lunes | S3 | Ejercicio de pilas | Simular "deshacer" |
+| Lunes | S4 | Ejercicio de pilas | Simular "deshacer" |
+| Lunes | S5 | Ejercicio de pilas | Simular "deshacer" |
+| Lunes | S6 | Ejercicio de pilas | Simular "deshacer" |
+| Martes | S | Colas con `deque` | `from collections import deque`, `popleft()` |
+| Martes | S | Ejercicios de colas | Simular fila de banco |
+| Miércoles | S | Validar paréntesis | Algoritmo clásico con pilas |
+| Miércoles | S | Invertir cadena | Usando pila |
+| Jueves | S | Simular fila | Atención al cliente |
+| Jueves | S | Procesar lotes | Colas de tareas |
+| Viernes | S | Ejercicios integradores | Combinar pilas y colas |
+| Sábado | S | Repaso | Ejercicios variados |
 | Domingo | Proyecto | Simulador de impresora | Cola de impresión |
 
 ---
