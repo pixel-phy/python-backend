@@ -33,14 +33,15 @@ semana_6_pilas_colas/
 |-----|-----------|------|----------------|
 | Lunes | S1 | Pilas con listas | `append()`, `pop()` |
 | Lunes | S2 | Ejercicios de pilas | Simular "deshacer" |
-| Martes | S3 | Colas con `deque` | `from collections import deque`, `popleft()` |
-| Martes | S4 | Ejercicios de colas | Simular fila de banco |
-| Miércoles | S5 | Validar paréntesis | Algoritmo clásico con pilas |
-| Miércoles | S6 | Invertir cadena | Usando pila |
-| Jueves | S7 | Simular fila | Atención al cliente |
-| Jueves | S8 | Procesar lotes | Colas de tareas |
-| Viernes | S9 | Ejercicios integradores | Combinar pilas y colas |
-| Sábado | S10 | Repaso | Ejercicios variados |
+| Lunes | S3 | Ejercicios de pilas | Simular "deshacer" |
+| Martes | S4 | Colas con `deque` | `from collections import deque`, `popleft()` |
+| Martes | S5 | Ejercicios de colas | Simular fila de banco |
+| Miércoles | S6 | Validar paréntesis | Algoritmo clásico con pilas |
+| Miércoles | S7 | Invertir cadena | Usando pila |
+| Jueves | S8 | Simular fila | Atención al cliente |
+| Jueves | S9 | Procesar lotes | Colas de tareas |
+| Viernes | S10 | Ejercicios integradores | Combinar pilas y colas |
+| Sábado | S12 | Repaso | Ejercicios variados |
 | Domingo | Proyecto | Simulador de impresora | Cola de impresión |
 
 ---
