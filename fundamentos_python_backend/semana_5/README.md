@@ -29,7 +29,7 @@ semana_5/
 | **E04** | Matrices | Listas anidadas, sumas, promedios, máximos |
 | **E05** | Ejercicios integradores | Inventario, compras, calificaciones |
 | **E06** | Sistema de contactos | Proyecto pequeño |
-| **Proyecto** | Sistema de gestión de estudiantes | Proyecto integrador final |
+| **Proyecto** | Sistema de gestión de Biblioteca | Proyecto integrador final |
 
 ---
 
