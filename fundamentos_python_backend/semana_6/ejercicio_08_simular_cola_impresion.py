@@ -2,7 +2,6 @@
 Una impresora recibe documentos y los imprime en orden de llegada."""
 
 from collections import deque
-import time
 
 nombres = deque()   
 paginas = deque()  
@@ -41,10 +40,10 @@ while True:
         if nombres and paginas:
             nombre_actual = nombres.popleft()
             paginas_actual = paginas.popleft()
-            tiempo_estimado = paginas_actual * 2
+            
             print(f" Imprimiendo '{nombre_actual}'... ({paginas_actual} páginas)")
-            time.sleep(tiempo_estimado)  # simula la impresión
-            print(f" '{nombre_actual}' impreso. Tiempo: {tiempo_estimado} segundos")
+
+            print(f" '{nombre_actual}' impreso.")
         else:
             print(" No hay documentos en la cola.")
 

@@ -41,7 +41,7 @@ semana_6_pilas_colas/
 | Lunes | S8 | Ejercicios de colas | Cola de impresión |
 | Martes | S9 | Validar paréntesis | Algoritmo clásico con pilas |
 | Martes | S10 | Invertir cadena | Usando pila |
-| Jueves | S | Simular fila | Atención al cliente |
+| Jueves | S11 | Simular fila de atención | Pila (LIFO) vs Cola (FIFO) |
 | Jueves | S | Procesar lotes | Colas de tareas |
 | Viernes | S | Ejercicios integradores | Combinar pilas y colas |
 | Sábado | S | Repaso | Ejercicios variados |
