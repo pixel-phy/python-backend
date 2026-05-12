@@ -37,8 +37,8 @@ semana_6_pilas_colas/
 | Lunes | S4 | Ejercicio de pilas | Simular "deshacer" |
 | Lunes | S5 | Ejercicio de pilas | Simular "deshacer" |
 | Lunes | S6 | Ejercicio de pilas | Simular "deshacer" |
-| Martes | S | Colas con `deque` | `from collections import deque`, `popleft()` |
-| Martes | S | Ejercicios de colas | Simular fila de banco |
+| Lunes | S7 | Colas con `deque` | `from collections import deque`, `popleft()` |
+| Lunes | S8 | Ejercicios de colas | Cola de impresión |
 | Miércoles | S | Validar paréntesis | Algoritmo clásico con pilas |
 | Miércoles | S | Invertir cadena | Usando pila |
 | Jueves | S | Simular fila | Atención al cliente |
