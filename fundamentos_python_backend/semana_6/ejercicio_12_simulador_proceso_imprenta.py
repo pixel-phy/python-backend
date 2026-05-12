@@ -9,28 +9,27 @@ Datos:
 - Nombre del trabajo.
 - Número de páginas
 - Urgente"""
+
 from collections import deque
 
 cola_normal = deque()
 cola_urgente = deque()
 
-print("\n=== SIMULADOR DE IMPRENTA ===\n")
-
 while True:
     print("\n--- Menú ---")
     print("1. Agregar trabajo")
-    print("2. Imprimir todos")
+    print("2. Imprimir")
     print("3. Ver colas")
     print("4. Salir")
 
-    opcion = input("Opción: ")
+    opcion = input("\nOpción: ")
 
     if opcion == "1":
         nombre = input("Nombre del trabajo: ").strip()
         if not nombre:
             print("❌ El nombre no puede estar vacío.")
             continue
-
+        
         try:
             paginas = int(input("Número de páginas: "))
             if paginas < 1:
@@ -39,52 +38,47 @@ while True:
         except ValueError:
             print("❌ Ingrese un número válido.")
             continue
-
-        urgente = input("¿Urgente? (s/n): ").strip().lower()
+        
+        urgente = input("¿Es urgente? (s/n): ").strip().lower()
 
         if urgente == "s":
             cola_urgente.append((nombre, paginas))
-            print(f"✅ Trabajo urgente '{nombre}' agregado.")
+            print(f"✅ Trabajo urgente {nombre} agregado a cola.")
         else:
             cola_normal.append((nombre, paginas))
-            print(f"✅ Trabajo normal '{nombre}' agregado.")
+            print(f"✅ Trabajo normal {nombre} agregado a cola.")
 
     elif opcion == "2":
-        print("\nINICIANDO IMPRESIÓN...\n")
+        print("\n--- IMPRIMIENDO ---")
 
-        # Imprimir urgentes primero
         while cola_urgente:
             nombre, paginas = cola_urgente.popleft()
-            print(f"[URGENTE] Imprimiendo '{nombre}' ({paginas} páginas)")
+            print(f"Imprimiendo (urgente) {nombre} ({paginas} páginas)")
 
-        # Luego normales
         while cola_normal:
             nombre, paginas = cola_normal.popleft()
-            print(f"[NORMAL] Imprimiendo '{nombre}' ({paginas} páginas)")
-
-        if not cola_urgente and not cola_normal:
-            print("No hay trabajos en cola.")
-
+            print(f"Imprimiendo (normal) {nombre} ({paginas} páginas)")
+        
     elif opcion == "3":
         print("\n--- COLA URGENTE ---")
         if cola_urgente:
             for i, (nombre, paginas) in enumerate(cola_urgente, 1):
-                print(f"  {i}. '{nombre}' - {paginas} págs")
-        else:
-            print("  Vacía")
+                print(f"{i}. {nombre} - {paginas} páginas")
 
+        else:
+            print("Cola vacía")
+        
         print("\n--- COLA NORMAL ---")
         if cola_normal:
             for i, (nombre, paginas) in enumerate(cola_normal, 1):
-                print(f"  {i}. '{nombre}' - {paginas} págs")
+                print(f"{i}. {nombre} - {paginas} páginas")
+        
         else:
-            print("  Vacía")
-
+            print("Cola vacía.")
+    
     elif opcion == "4":
         print("Hasta luego!")
         break
 
     else:
-        print("❌ Opción no válida.")
-            
-    
+        print("❌ Ingrese una opción válida.")
