@@ -43,6 +43,7 @@ semana_6_pilas_colas/
 | Martes | S10 | Invertir cadena | Usando pila |
 | Martes | S11 | Simular fila de atención | Pila (LIFO) vs Cola (FIFO) |
 | Martes | S12 | Simular proceso imprenta | Colas y tuplas |
+| Martes | S13 | Pedidos restaurantes | Colas y tuplas |
 | Jueves | S | Procesar lotes | Colas de tareas |
 | Viernes | S | Ejercicios integradores | Combinar pilas y colas |
 | Sábado | S | Repaso | Ejercicios variados |
