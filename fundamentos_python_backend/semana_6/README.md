@@ -45,7 +45,8 @@ semana_6_pilas_colas/
 | Martes | S12 | Simular proceso imprenta | Colas y tuplas |
 | Martes | S13 | Pedidos restaurantes | Colas y tuplas |
 | Martes | S14 | Sistema de atención bancaria | Colas y tuplas |
-| Jueves | S | Procesar lotes | Colas de tareas |
+| Martes | S15 | Cola implementada con dos pilas | Entrevistas |
+| Jueves | S16 | Evaluar expresión matemática | Pilas |
 | Viernes | S | Ejercicios integradores | Combinar pilas y colas |
 | Sábado | S | Repaso | Ejercicios variados |
 | Domingo | Proyecto | Simulador de impresora | Cola de impresión |
