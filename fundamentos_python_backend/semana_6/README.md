@@ -47,6 +47,7 @@ semana_6_pilas_colas/
 | Martes | S14 | Sistema de atención bancaria | Colas y tuplas |
 | Miércoles | S15 | Cola implementada con dos pilas | Entrevistas |
 | Miércoles | S16 | Evaluar expresión matemática | Pilas |
+| Miércoles | S17 | Historial adelante/atrás | Pilas |
 | Viernes | S | Ejercicios integradores | Combinar pilas y colas |
 | Sábado | S | Repaso | Ejercicios variados |
 | Domingo | Proyecto | Simulador de impresora | Cola de impresión |
