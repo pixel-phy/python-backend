@@ -52,6 +52,7 @@ semana_6_pilas_colas/
 | Miércoles | S19 | Sistema de notificaciones | Colas |
 | Jueves | R1 | Implementar pila | pila |
 | Jueves | R2 | Implementar cola | cola |
+| Jueves | R3 | Simular fila en un banco | cola |
 | Viernes | S | Ejercicios integradores | Combinar pilas y colas |
 | Sábado | S | Repaso | Ejercicios variados |
 | Domingo | Proyecto | Simulador de impresora | Cola de impresión |
