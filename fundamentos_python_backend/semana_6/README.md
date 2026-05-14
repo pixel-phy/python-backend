@@ -49,6 +49,7 @@ semana_6_pilas_colas/
 | Miércoles | S16 | Evaluar expresión matemática | Pilas |
 | Miércoles | S17 | Historial adelante/atrás | Pilas |
 | Miércoles | S18 | Procesamiento lotes | Colas |
+| Miércoles | S19 | Sistema de notificaciones | Colas |
 | Viernes | S | Ejercicios integradores | Combinar pilas y colas |
 | Sábado | S | Repaso | Ejercicios variados |
 | Domingo | Proyecto | Simulador de impresora | Cola de impresión |
