@@ -55,7 +55,10 @@ semana_6_pilas_colas/
 | Jueves | R03 | Simular fila en un banco | cola |
 | Jueves | R04 | Simular deshacer en editor de texto | Pilas |
 | Jueves | R05 | Procesamiento de pedidos | Cola generada con dos pilas |
-| Viernes | S | Ejercicios integradores | Combinar pilas y colas |
+| Viernes | R06 | Invertir lista usando pila | pilas |
+| Viernes | R07 | Detector de palíndromos | pilas |
+| Viernes | R08 | Eliminar duplicados | pilas |
+| Viernes | R09 | Mezclar dos colas en una| colas |
 | Sábado | S | Repaso | Ejercicios variados |
 | Domingo | Proyecto | Simulador de impresora | Cola de impresión |
 
