@@ -18,7 +18,7 @@ nombre, edad, ciudad, activo = tupla
 
 numeros = (1, 2, 3, 4, 5, 4, 6, 7, 4, 8, 9, 4, 10, 4, 4, 12, 4, 8, 4)
 print("El 4 aparece ", numeros.count(4), "veces en la tupla.")
-print("El índice de 4 es: ", numeros.index(100))
+print("El índice de 4 es: ", numeros.index(4))
 
 nueva_tupla = numeros + (11, 12)
 

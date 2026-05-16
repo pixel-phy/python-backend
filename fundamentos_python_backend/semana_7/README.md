@@ -34,16 +34,18 @@ semana_7_tuplas_listas_enlazadas/
 
 | Día | Ejercicio | Tema | Concepto clave |
 |-----|-----------|------|----------------|
-| Lunes | T1 | Tuplas: creación y acceso | `()`, `[0]`, `[-1]` |
-| Lunes | T2 | Tuplas: desempaquetado | `a, b, c = tupla` |
-| Lunes | T3 | Tuplas vs listas | Inmutabilidad vs mutabilidad |
-| Lunes | T4 | Métodos de tuplas | `.count()`, `.index()` |
-| Miércoles | L1 | Nodos | `class Nodo: valor, siguiente` |
-| Miércoles | L2 | Lista enlazada básica | Crear y enlazar nodos |
-| Jueves | L3 | Recorrer lista enlazada | `while actual:` |
-| Jueves | L4 | Buscar en lista enlazada | Encontrar un valor |
-| Viernes | L5 | Insertar nodos | Inicio, final, medio |
-| Viernes | L6 | Eliminar nodos | Reajustar punteros |
+| Sábado | T1 | Tuplas: creación y acceso | `()`, `[0]`, `[-1]` |
+| Sábado | T2 | Tuplas: desempaquetado | `a, b, c = tupla` |
+| Sábado | T3 | Tuplas vs listas | Inmutabilidad vs mutabilidad |
+| Sábado | T4 | Métodos de tuplas | `.count()`, `.index()` |
+| Sábado | L1 | Nodos | `class Nodo: valor, siguiente` |
+| Sábado | L2 | Lista enlazada básica | Crear y enlazar nodos |
+| Sábado | L3 | Recorrer lista enlazada | `while actual:` |
+| Sábado | L4 | Insertar nodos | Inicio |
+| Sábado | L5 | Insertar nodos | Final |
+| Sábado | L6 | Insertar nodos | Medio |
+| Sábado | L7 | Buscar en lista enlazada | Encontrar un valor |
+| Sábado | L8 | Eliminar nodos | Reajustar punteros |
 | Sábado | T6 | Repaso de tuplas | Ejercicios variados |
 | Sábado | L7 | Repaso de listas enlazadas | Ejercicios variados |
 | Domingo | Proyecto | Lista de tareas | Lista enlazada de tareas |
