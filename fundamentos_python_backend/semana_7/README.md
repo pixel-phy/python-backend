@@ -36,8 +36,8 @@ semana_7_tuplas_listas_enlazadas/
 |-----|-----------|------|----------------|
 | Lunes | T1 | Tuplas: creación y acceso | `()`, `[0]`, `[-1]` |
 | Lunes | T2 | Tuplas: desempaquetado | `a, b, c = tupla` |
-| Martes | T3 | Tuplas vs listas | Inmutabilidad vs mutabilidad |
-| Martes | T4 | Métodos de tuplas | `.count()`, `.index()` |
+| Lunes | T3 | Tuplas vs listas | Inmutabilidad vs mutabilidad |
+| Lunes | T4 | Métodos de tuplas | `.count()`, `.index()` |
 | Miércoles | L1 | Nodos | `class Nodo: valor, siguiente` |
 | Miércoles | L2 | Lista enlazada básica | Crear y enlazar nodos |
 | Jueves | L3 | Recorrer lista enlazada | `while actual:` |
