@@ -7,6 +7,7 @@ Dominar Python desde cero hasta un nivel intermedio-avanzado, cubriendo todos lo
 ---
 
 ## 📂 Estructura de la carpeta
+
 fundamentos_python/
 ├── README.md
 ├── semana_1_variables_operadores/

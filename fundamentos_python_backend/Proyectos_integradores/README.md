@@ -48,7 +48,7 @@ proyectos_integradores/
 |-----------|-----------------------------------|
 | **Descripción** | Gestiona productos, precios y stocks. Permite ver, agregar, vender y filtrar productos con bajo stock. |
 
-### Semana 6: Atención en Clínica 🔄 (en curso)
+### Semana 6: Atención en Clínica ✅
 | Conceptos | Pilas, colas, prioridad con dos colas |
 |-----------|---------------------------------------|
 | **Descripción** | Sistema de atención con dos colas: urgencias (prioridad alta) y consulta general. Permite agregar pacientes, atender, ver colas y estadísticas. |
