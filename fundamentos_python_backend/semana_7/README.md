@@ -73,11 +73,13 @@ print(a, b, c)   # lunes martes miércoles
 
 # Las tuplas son inmutables
 dias[0] = "domingo"  # ❌ TypeError
-
+```
 ---
 
 ## 🔗 ¿Qué es una Lista Enlazada?
 **Principio:** Estructura de datos lineal donde cada nodo contiene un valor y una referencia al siguiente nodo.
+
+``` Python
 # Crear la clase Nodo
 class Nodo:
     def __init__(self, valor):
@@ -98,3 +100,4 @@ actual = nodo1
 while actual is not None:
     print(actual.valor)
     actual = actual.siguiente
+```
