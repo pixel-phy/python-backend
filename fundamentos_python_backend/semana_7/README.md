@@ -72,3 +72,29 @@ print(a, b, c)   # lunes martes miércoles
 
 # Las tuplas son inmutables
 dias[0] = "domingo"  # ❌ TypeError
+
+## 🔍 ¿Qué es una cola enlazada?
+
+**Principio:** Estructura de datos lineal que almacena elementos en orden secuencial. (Sigue el principio FIFO).
+
+```python
+# Crear listas enlazadas
+class Nodo:
+    def __init__(self, valor):
+        self.valor = valor
+        self.siguiente = None
+
+# Asignamos valores a cada nodo
+nodo1 = Nodo(10)
+nodo2 = Nodo(20)
+nodo3 = Nodo(30)
+
+# Generamos conexiones entre nodos
+nodo1.siguiente = nodo2
+nodo2.siguiente = nodo3
+
+# Recorremos toda la lista para mostrar valores
+actual = nodo1
+while actual is not None:
+    print(actual.valor)
+    actual = actual.siguiente
