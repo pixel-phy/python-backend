@@ -3,6 +3,7 @@
 ## 🎯 Objetivo de la semana
 
 Aprender dos estructuras de datos fundamentales:
+
 - **Tuplas:** Inmutables, rápidas y seguras
 - **Listas enlazadas:** Secuencias dinámicas donde cada elemento apunta al siguiente
 
@@ -11,7 +12,6 @@ Estas estructuras son la base de sistemas que manejan datos inmutables (tuplas) 
 ---
 
 ## 📂 Estructura de la carpeta
-
 semana_7_tuplas_listas_enlazadas/
 ├── README.md
 ├── T1_tuplas_creacion.py
@@ -28,6 +28,7 @@ semana_7_tuplas_listas_enlazadas/
 ├── T6_repaso.py
 └── proyecto_integrador.py
 
+
 ---
 
 ## 📋 Contenido de la semana
@@ -41,13 +42,13 @@ semana_7_tuplas_listas_enlazadas/
 | Sábado | L1 | Nodos | `class Nodo: valor, siguiente` |
 | Sábado | L2 | Lista enlazada básica | Crear y enlazar nodos |
 | Sábado | L3 | Recorrer lista enlazada | `while actual:` |
-| Sábado | L4 | Insertar nodos | Inicio |
-| Sábado | L5 | Insertar nodos | Final |
-| Sábado | L6 | Insertar nodos | Medio |
+| Sábado | L4 | Insertar nodos (inicio) | Cambiar cabeza |
+| Sábado | L5 | Insertar nodos (final) | Recorrer hasta el final |
+| Sábado | L6 | Insertar nodos (medio) | Reajustar punteros |
 | Sábado | L7 | Buscar en lista enlazada | Encontrar un valor |
 | Sábado | L8 | Eliminar nodos | Reajustar punteros |
 | Sábado | T6 | Repaso de tuplas | Ejercicios variados |
-| Sábado | L7 | Repaso de listas enlazadas | Ejercicios variados |
+| Sábado | L9 | Repaso de listas enlazadas | Ejercicios variados |
 | Domingo | Proyecto | Lista de tareas | Lista enlazada de tareas |
 
 ---
@@ -73,12 +74,11 @@ print(a, b, c)   # lunes martes miércoles
 # Las tuplas son inmutables
 dias[0] = "domingo"  # ❌ TypeError
 
-## 🔍 ¿Qué es una cola enlazada?
+---
 
-**Principio:** Estructura de datos lineal que almacena elementos en orden secuencial. (Sigue el principio FIFO).
-
-```python
-# Crear listas enlazadas
+## 🔗 ¿Qué es una Lista Enlazada?
+**Principio:** Estructura de datos lineal donde cada nodo contiene un valor y una referencia al siguiente nodo.
+# Crear la clase Nodo
 class Nodo:
     def __init__(self, valor):
         self.valor = valor
