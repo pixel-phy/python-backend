@@ -50,6 +50,7 @@ semana_7_tuplas_listas_enlazadas/
 | Sábado | T6 | Repaso de tuplas | Ejercicios variados |
 | Sábado | L9 | Repaso de listas enlazadas | Ejercicios variados |
 | Domingo | L10 | Mostrar valor de posición ingresada | Ejercicios variados |
+| Lunes - Viernes | L11 - L25 | Ejercicios prácticos | Listas enlazadas y Tuplas |
 | Domingo | Proyecto | Lista de tareas | Lista enlazada de tareas |
 
 ---
