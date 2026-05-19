@@ -27,26 +27,28 @@ class Pedidos:
         self.pedido = pedido
         self.siguiente = None
 
-# Crear nodos
-p1 = Pedidos((1, "Ana", "Café", False))
-p2 = Pedidos((2, "Luis", "Té", False))
-p3 = Pedidos((3, "Carlos", "Jugo", True))
+# Creamos los nodos
+pedido1 = Pedidos((1, "Ana", "Café", False))
+pedido2 = Pedidos((2, "Luis", "Té", False))
+pedido3 = Pedidos((3, "Carlos", "Jugo", True))
 
-# Enlazar
-p1.siguiente = p2
-p2.siguiente = p3
+# Punteros de enlace
+pedido1.siguiente = pedido2
+pedido2.siguiente = pedido3
+pedido3.siguiente = None
 
+# Mostramos lista de pedido original
 print("\n--- PEDIDOS ORIGINALES ---")
-actual = p1
+actual = pedido1
 while actual:
     tipo = "Urgente" if actual.pedido[3] else "Normal"
     print(f"{actual.pedido[0]}. {actual.pedido[1]} - {actual.pedido[2]} ({tipo})")
     actual = actual.siguiente
 
-# Separar urgentes y normales (manteniendo orden)
+# Separar urgentes y normales
 urgentes = []
 normales = []
-actual = p1
+actual = pedido1
 while actual:
     if actual.pedido[3]:
         urgentes.append(actual.pedido)
@@ -54,33 +56,34 @@ while actual:
         normales.append(actual.pedido)
     actual = actual.siguiente
 
-# Reconstruir lista enlazada: urgentes primero, luego normales
+# Reconstruimos lista enlazada con urgentes antes que normales
 todos = urgentes + normales
+
 if not todos:
-    p1 = None
+    pedido1 = None
 else:
-    p1 = Pedidos(todos[0])
-    actual = p1
+    pedido1 = Pedidos(todos[0])
+    actual = pedido1
     for pedido in todos[1:]:
         actual.siguiente = Pedidos(pedido)
         actual = actual.siguiente
 
 print("\n--- PEDIDOS REORDENADOS ---")
-actual = p1
+actual = pedido1
 while actual:
     tipo = "Urgente" if actual.pedido[3] else "Normal"
     print(f"{actual.pedido[0]}. {actual.pedido[1]} - {actual.pedido[2]} ({tipo})")
     actual = actual.siguiente
 
 # Atender primer pedido
-print("\n--- ATENDIENDO PRIMER PEDIDO ---")
-if p1:
-    atendido = p1
-    p1 = p1.siguiente
-    print(f"✅ Atendido: {atendido.pedido[1]} - {atendido.pedido[2]}")
+print("\n--- Atendiendo primer pedido ---")
+if pedido1:
+    atendiendo = pedido1
+    pedido1 = pedido1.siguiente
+    print(f"✅ Atendido: {atendiendo.pedido[1]} - {atendiendo.pedido[2]}")
 
-print("\n--- PEDIDOS RESTANTES ---")
-actual = p1
+print("\n--- PEDIDOS RESTANTE ---")
+actual = pedido1
 if not actual:
     print("No hay pedidos pendientes")
 while actual:
