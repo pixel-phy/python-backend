@@ -55,8 +55,6 @@ try:
 except ValueError as e:
     print(f"Error: {e}")
 
-
-
 try:
     otro_valor = int(input("Otro valor: "))
     nuevo_nodo = Nodo(otro_valor)
