@@ -74,7 +74,7 @@ if "manzana" in frutas:
 for fruta in frutas:
     print(fruta)
 ```
-🔍 Operaciones entre conjuntos
+## 🔍 Operaciones entre conjuntos
 
 ```python
 A = {1, 2, 3, 4}
@@ -103,7 +103,8 @@ issuperset()	¿Contiene todos los elementos de otro?	A.issuperset(B)
 isdisjoint()	¿No tienen elementos en común?	A.isdisjoint(B)
 ```
 
-🔍 Frozenset (conjunto inmutable)
+## 🔍 Frozenset (conjunto inmutable)
+
 ```python
 # Frozenset: versión inmutable del set
 inmutable = frozenset([1, 2, 3])
