@@ -55,7 +55,7 @@ proyectos_integradores/
 | **Descripción** | Sistema de atención con dos colas: urgencias (prioridad alta) y consulta general. Permite agregar pacientes, atender, ver colas y estadísticas. |
 
 ### Semana 7: Sistema de biblioteca ✅
-| Conceptos | Pilas, colas, prioridad con dos colas |
+| Conceptos | Listas enlazadas, Tuplas |
 |-----------|---------------------------------------|
 | **Descripción** | Sistema para gestionar préstamos de libros a partir de tuplas en listas enlazadas. Permite agregar libros a la biblioteca, mostrar, buscar libro por título, prestar un libro, devolver, eliminar, ordenar los libros por año y título, mostrar estadísticas generales. |
 
