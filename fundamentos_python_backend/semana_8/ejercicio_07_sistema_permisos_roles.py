@@ -48,16 +48,10 @@ else:
 print("\n... creando nuevo rol 'supervisor'")
 supervisor = {"leer", "comentar", "moderar"}
 print("... realizando cambio de rol a Carlos")
-usuarios[2], usuarios[3] = usuarios[3], usuarios[2]
-roles_usuarios.remove("visor")
-roles_usuarios.append("supervisor")
 for i in range(len(usuarios)):
-    usuario = usuarios[i]
-    rol = roles_usuarios[i]
-
-    if usuario == "carlos":
-        permisos = supervisor
-        print(f"Permisos {usuario}: {permisos} ")
+    if usuarios[i] == "carlos":
+        roles_usuarios[i] = "supervisor"
+        break
 
 admin.add("auditar")
 admin.discard("crear")
