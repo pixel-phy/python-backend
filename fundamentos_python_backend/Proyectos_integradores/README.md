@@ -59,3 +59,10 @@ proyectos_integradores/
 |-----------|---------------------------------------|
 | **Descripción** | Sistema para gestionar préstamos de libros a partir de tuplas en listas enlazadas. Permite agregar libros a la biblioteca, mostrar, buscar libro por título, prestar un libro, devolver, eliminar, ordenar los libros por año y título, mostrar estadísticas generales. |
 
+### Semana 8: Sistema de gestión de clases y estudiantes ✅
+| Conceptos | Sets |
+|-----------|---------------------------------------|
+| **Descripción** | Un colegio necesita un sistema para gestionar estudiantes, sus cursos y las asignaturas que cursan. |
+
+
+
