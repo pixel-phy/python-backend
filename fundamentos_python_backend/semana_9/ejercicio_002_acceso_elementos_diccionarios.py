@@ -20,3 +20,13 @@ print(usuario)  # {'nombre': 'Ana', 'edad': 26, 'ciudad': 'Madrid'}
 # 4. Agregar nuevos pares
 usuario["profesion"] = "Ingeniera"
 print(usuario)  # {'nombre': 'Ana', 'edad': 26, 'ciudad': 'Madrid', 'profesion': 'Ingeniera'}
+
+# Práctica
+libro = {"titulo": "Más allá del bien y del mal", "autor": "nietzsche", "año": 1860, "precio": 230000}
+print(libro["titulo"])
+print(libro.get("autor"))
+# cambiar el precio a un valor diferente
+libro["precio"] = 225000
+
+libro["editorial"] = "Norma"
+print(libro)
