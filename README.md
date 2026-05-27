@@ -86,7 +86,7 @@ fundamentos_python/
 | Recorrido con `for` anidado | Sumas por filas y columnas |
 | Proyecto integrador | Sistema de inventario, lista de compras |
 
-### Semana 6: Pilas y Colas 🔄 (en curso)
+### Semana 6: Pilas y Colas ✅
 | Tema | Contenido |
 |------|-----------|
 | Pila (Stack) | LIFO con `append()` y `pop()` |
@@ -94,20 +94,20 @@ fundamentos_python/
 | Aplicaciones | Deshacer, historial navegador, fila banco |
 | Dos pilas para cola | Simular FIFO con dos LIFO |
 
-### Semana 7: Tuplas y Listas enlazadas
+### Semana 7: Tuplas y Listas enlazadas ✅
 | Tema | Contenido |
 |------|-----------|
 | Tuplas | Inmutabilidad, desempaquetado |
 | Listas enlazadas | Nodos, punteros, recorrido |
 
-### Semana 8: Conjuntos (sets)
+### Semana 8: Conjuntos (sets) ✅
 | Tema | Contenido |
 |------|-----------|
 | Sets | Elementos únicos |
 | Operaciones | Unión (`|`), intersección (`&`), diferencia (`-`) |
 | Métodos | `add()`, `remove()`, `frozenset()` |
 
-### Semana 9: Diccionarios
+### Semana 9: Diccionarios 🔄 (en curso)
 | Tema | Contenido |
 |------|-----------|
 | Creación | `{"clave": "valor"}` |
