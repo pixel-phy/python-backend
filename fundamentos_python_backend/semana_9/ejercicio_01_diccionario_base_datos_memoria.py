@@ -37,3 +37,29 @@ print("\n=== USUARIOS ACTUALIZADOS ===")
 for username, datos in usuarios.items():
     print(f"@{username}: {datos['nombre']} - {datos['email']}")
 
+# Agregar las siguientes funcionalidades:
+# 1. Eliminar usuario (pedir username y eliminarlo del diccionario)
+eliminar = input("\nIngrese username a eliminar: ")
+if eliminar in usuarios:
+    del usuarios[eliminar]
+else:
+    print(f"Usuario '{eliminar}' no encontrado")
+
+# 2. Actualizar email de un usuario existente
+buscar = input("\nIngrese usuario a actualizar: ")
+if buscar in usuarios:
+    email = input("\nIngrese email: ")
+    usuarios[buscar]["email"] = email
+else:
+    print(f"El usuario '{buscar}' no encontrado")
+
+# 3. Mostrar cantidad total de usuarios registrados
+print(f"\nCantidad total de usuarios registrados: {len(usuarios)}")
+
+# 4. Usuarios mayores de edad
+print("\nUsuarios mayores de 18 años")
+for username, datos in usuarios.items():
+    if datos["edad"] >= 18:
+        print(f"@{username}: {datos['nombre']} ({datos['edad']} años) - {datos['email']}")
+
+
