@@ -105,3 +105,33 @@ for email, datos in gastos_por_cliente.items():
 
 print(f"\n--- CLIENTE QUE MÁS GASTÓ ---")
 print(f"{nombre_max} ({email_max}) con {max_gasto}")
+
+""" 1. Calcular total de unidades vendidas por producto (sumar cantidades).
+2. El producto más vendido. """
+
+ventas_producto = {}
+
+for pedido, info in pedidos.items():
+    total = 0
+    for item in info['items']:
+        producto = item['producto']
+        cantidad = item['cantidad']
+
+    if producto not in ventas_producto:
+        ventas_producto[producto] = cantidad
+    else:
+        ventas_producto[producto] += cantidad
+
+producto_max = None
+max_cantidad = -1
+
+for producto, cantidad in ventas_producto.items():
+    if cantidad > max_cantidad:
+        max_cantidad = cantidad
+        producto_max = producto
+
+print(f"\n--- UNIDADES VENDIDAS POR PRODUCTO ---")
+for producto, cantidad in ventas_producto.items():
+    print(f"{producto}: {cantidad}")
+
+print(f"\nProducto más vendido: {producto_max} ({max_cantidad} unidades)")
