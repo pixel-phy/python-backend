@@ -64,5 +64,9 @@ proyectos_integradores/
 |-----------|---------------------------------------|
 | **Descripción** | Un colegio necesita un sistema para gestionar estudiantes, sus cursos y las asignaturas que cursan. |
 
-
+### Semana 9: Sistema de gestión de pedidos con reportes ✅
+| Conceptos | Diccionarios |
+|-----------|---------------------------------------|
+| **Descripción** | Se implementa un sistema de reportes de una tienda Online. Reporte 1: Ventas totales. Reporte 2: Producto más vendido
+Reporte 3: Método de pago más usado. Reporte 4: Clientes con pedidos pendientes. Reporte 5: Ingresos por fecha.|
 
