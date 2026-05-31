@@ -43,7 +43,7 @@ semana_9_diccionarios/
 | Jueves | D8 | Ejercicios prácticos | Aplicaciones reales |
 | Viernes | D9 | Repaso | Ejercicios variados |
 | Sábado | - | Descanso / repaso | - |
-| Domingo | Proyecto | Sistema de inventario con diccionarios | CRUD completo |
+| Domingo | Proyecto | Sistema de gestión de pedidos con reportes | CRUD completo |
 
 ---
 
