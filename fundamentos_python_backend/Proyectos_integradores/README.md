@@ -69,3 +69,9 @@ proyectos_integradores/
 |-----------|---------------------------------------|
 | **Descripción** | Se implementa un sistema de reportes de una tienda Online. Reporte 1: Ventas totales. Reporte 2: Producto más vendido. Reporte 3: Método de pago más usado. Reporte 4: Clientes con pedidos pendientes. Reporte 5: Ingresos por fecha.|
 
+### Semana 10: Administrador de usuarios en servidor ✅ 
+| Conceptos | funciones (1ra parte) |
+|-----------|---------------------------------------|
+| **Descripción** | Implementé un script de funciones en el que se pone en práctica conceptos como **Retornos Tempranos, Retornos múltiples y Control Scope**. Las funcionalidades principales son: registrar_usuario, cambiar_plan y obtener_usuarios_activos. Los usuarios se gestionan bajo una estructura de diccionarios anidados.  |
+
+
