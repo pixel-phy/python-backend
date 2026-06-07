@@ -107,14 +107,14 @@ fundamentos_python/
 | Operaciones | Unión (`|`), intersección (`&`), diferencia (`-`) |
 | Métodos | `add()`, `remove()`, `frozenset()` |
 
-### Semana 9: Diccionarios 🔄 (en curso)
+### Semana 9: Diccionarios (dict) ✅
 | Tema | Contenido |
 |------|-----------|
 | Creación | `{"clave": "valor"}` |
 | Métodos | `keys()`, `values()`, `items()`, `get()`, `pop()` |
 | Dict comprehension | `{x: x**2 for x in range(5)}` |
 
-### Semana 10-11: Funciones
+### Semana 10-11: Funciones 🔄 (en curso)
 | Tema | Contenido |
 |------|-----------|
 | Definición | `def funcion():` |
