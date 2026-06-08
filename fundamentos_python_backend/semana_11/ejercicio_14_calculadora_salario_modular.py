@@ -13,7 +13,7 @@ def calcular_salario_neto(salario_base: float):
     def calcular_descuentos():
         return salario_base * 0.08
 
-    descuento_total = calcular_descuentos()
+descuento_total = calcular_descuentos()
 
     return salario_base - descuento_total 
 
