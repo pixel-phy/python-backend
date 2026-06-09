@@ -33,7 +33,7 @@ semana_11_funciones_parte2/
 | Jueves | F4 | Recursión básica | Funciones que se llaman a sí mismas |
 | Viernes | F5 | Decoradores básicos | Funciones que modifican otras funciones |
 | Sábado | F6 | Ejercicios integradores | Aplicar todo lo aprendido |
-| Domingo | Proyecto | Calculadora con funciones | Aplicación completa |
+| Domingo | Proyecto | E-Commerce Core | Aplicación completa |
 
 ---
 

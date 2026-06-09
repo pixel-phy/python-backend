@@ -114,7 +114,7 @@ fundamentos_python/
 | Métodos | `keys()`, `values()`, `items()`, `get()`, `pop()` |
 | Dict comprehension | `{x: x**2 for x in range(5)}` |
 
-### Semana 10-11: Funciones 🔄 (en curso)
+### Semana 10-11: Funciones ✅ 
 | Tema | Contenido |
 |------|-----------|
 | Definición | `def funcion():` |
@@ -123,8 +123,9 @@ fundamentos_python/
 | Scope | `global`, `local` |
 | `*args`, `**kwargs` | Argumentos variables |
 | Lambda | Funciones anónimas |
+| Recursividad | funciones que se llaman a sí mismas en su return |
 
-### Semana 12: Manejo de errores avanzado
+### Semana 12: 🔄 Manejo de errores avanzado (en curso)
 | Tema | Contenido |
 |------|-----------|
 | `try/except/else/finally` | Bloque completo |
