@@ -74,4 +74,9 @@ proyectos_integradores/
 |-----------|---------------------------------------|
 | **Descripción** | Implementé un script de funciones en el que se pone en práctica conceptos como **Retornos Tempranos, Retornos múltiples y Control Scope**. Las funcionalidades principales son: registrar_usuario, cambiar_plan y obtener_usuarios_activos. Los usuarios se gestionan bajo una estructura de diccionarios anidados.  |
 
+### Semana 11: E-Commerce Core ✅ 
+| Conceptos | funciones (2da parte) |
+|-----------|---------------------------------------|
+| **Descripción** | Se construye el núcleo lógico de una tienda Online con lo aprendido en la semana 11: Decorador capas de vigilar cualquier función del sistema, Diccionarios optimizador cargados con funciones lambda de una sola línea, closure con ámbito protegido para evitar fraudes en el contador de envíos y un algoritmo recursivo que procesa datos secuenciales usando recursividad.  |
+
 
