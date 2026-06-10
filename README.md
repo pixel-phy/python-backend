@@ -151,8 +151,6 @@ fundamentos_python/
 | Polimorfismo | Mismo método, diferente comportamiento |
 | Testing | `unittest`, `pytest` |
 
----
-
 ### Semana 20: Manejo de errores avanzado
 | Tema | Contenido |
 |------|-----------|
