@@ -66,8 +66,7 @@ with open("datos.txt", "r", encoding="utf-8") as archivo:
 # El archivo se cierra automáticamente
 
 ```
-```
-```
+
 ## 🔍 Leer CSV
 ```python
 import csv
@@ -83,6 +82,5 @@ with open("salida.csv", "w") as f:
     escritor = csv.writer(f)
     escritor.writerow(["nombre", "edad"])
     escritor.writerow(["Ana", 25])
-```
 ```
 ```

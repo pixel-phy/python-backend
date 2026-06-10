@@ -125,20 +125,16 @@ fundamentos_python/
 | Lambda | Funciones anónimas |
 | Recursividad | funciones que se llaman a sí mismas en su return |
 
-### Semana 12: 🔄 Manejo de errores avanzado (en curso)
-| Tema | Contenido |
-|------|-----------|
-| `try/except/else/finally` | Bloque completo |
-| Excepciones personalizadas | Crear errores propios |
 
-### Semana 13: Archivos
+
+### Semana 12: Archivos 🔄 (en curso)
 | Tema | Contenido |
 |------|-----------|
 | Lectura/Escritura | `open()`, `read()`, `write()` |
 | Modos | `'r'`, `'w'`, `'a'` |
 | Context managers | `with open() as f:` |
 
-### Semana 14-18: Algoritmos y estructuras avanzadas
+### Semana 13-17: Algoritmos y estructuras avanzadas
 | Tema | Contenido |
 |------|-----------|
 | Algoritmos clásicos | Burbuja, selección, búsqueda binaria |
@@ -147,7 +143,7 @@ fundamentos_python/
 | Grafos | BFS, DFS |
 | Heap | Cola de prioridad con `heapq` |
 
-### Semana 19-20: POO y Testing
+### Semana 18-19: POO y Testing
 | Tema | Contenido |
 |------|-----------|
 | Clases | `class`, `__init__`, `self` |
@@ -156,3 +152,9 @@ fundamentos_python/
 | Testing | `unittest`, `pytest` |
 
 ---
+
+### Semana 20: Manejo de errores avanzado
+| Tema | Contenido |
+|------|-----------|
+| `try/except/else/finally` | Bloque completo |
+| Excepciones personalizadas | Crear errores propios |
