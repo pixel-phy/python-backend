@@ -83,4 +83,3 @@ with open("salida.csv", "w") as f:
     escritor.writerow(["nombre", "edad"])
     escritor.writerow(["Ana", 25])
 ```
-```
