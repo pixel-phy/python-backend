@@ -1,0 +1,4 @@
+--- REPORTE DE VENTAS ---
+Producto A: $150 USD
+Producto B: $220 USD
+Total Ventas: $370 USD
