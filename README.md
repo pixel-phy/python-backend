@@ -127,17 +127,17 @@ fundamentos_python/
 
 
 
-### Semana 12: Archivos 🔄 (en curso)
+### Semana 12: Archivos ✅ 
 | Tema | Contenido |
 |------|-----------|
 | Lectura/Escritura | `open()`, `read()`, `write()` |
 | Modos | `'r'`, `'w'`, `'a'` |
 | Context managers | `with open() as f:` |
 
-### Semana 13-17: Algoritmos y estructuras avanzadas
+### Semana 13-17: 🔄 Algoritmos y estructuras avanzadas (en curso)
 | Tema | Contenido |
 |------|-----------|
-| Algoritmos clásicos | Burbuja, selección, búsqueda binaria |
+| Algoritmos clásicos | Búsqueda lineal, búsqueda binaria, ordenamiento burbuja, ordenamiento selección, ordenamiento inserción |
 | Algoritmos de validación | Luhn, checksums |
 | Árboles | Binario, BST, recorridos |
 | Grafos | BFS, DFS |
