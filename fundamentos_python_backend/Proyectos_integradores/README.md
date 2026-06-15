@@ -79,4 +79,9 @@ proyectos_integradores/
 |-----------|---------------------------------------|
 | **Descripción** | Se construye el núcleo lógico de una tienda Online con lo aprendido en la semana 11: Decorador capas de vigilar cualquier función del sistema, Diccionarios optimizador cargados con funciones lambda de una sola línea, closure con ámbito protegido para evitar fraudes en el contador de envíos y un algoritmo recursivo que procesa datos secuenciales usando recursividad.  |
 
+### Semana 12: Fábrica de muebles ✅ 
+| Conceptos | archivos |
+|-----------|---------------------------------------|
+| **Descripción** | Se implementa un sistema de despliegue de modelos de optimización que simula el flujo real de datos en una empresa manufacturera que utiliza IO para decidir cuántos productos fabricar con recursos limitados.  |
+
 
