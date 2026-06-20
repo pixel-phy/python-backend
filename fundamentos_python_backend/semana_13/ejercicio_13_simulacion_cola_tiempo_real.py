@@ -12,7 +12,7 @@
     al final y desplazarlo hacia atrás usando el bucle while de inserción para garantizar eficiencia logarítmica/lineal 
     en cada inserción.
     """
-from typing import tuple
+from typing import Tuple
 ItemInventario = tuple[str, int]
 
 def recibir_e_insertar_item(inventario: list[ItemInventario], nuevo_item: ItemInventario):
@@ -54,4 +54,17 @@ if __name__ == "__main__":
     
     print("Inventario Inicial:", inventario_realtime)
 
+evento_1 : ItemInventario = ("PROD-D", 5)
+recibir_e_insertar_item(inventario_realtime, evento_1)
+print(f"Evento 1 procesado (Insertar {evento_1}):")
+print(f"    Inventario: {inventario_realtime}\n")
 
+evento_2: ItemInventario = ("PROD-E", 75)
+recibir_e_insertar_item(inventario_realtime, evento_2)
+print(f"Evento 2 procesado (Insertar {evento_2}):")
+print(f"    Inventario: {inventario_realtime}\n")
+
+evento_3: ItemInventario = ("PROD-F", 120)
+recibir_e_insertar_item(inventario_realtime, evento_3)
+print(f"Envento 3 procesado (Insertar {evento_3}):")
+print(f"    Inventario: {inventario_realtime}\n")
