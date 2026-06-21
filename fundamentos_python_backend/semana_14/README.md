@@ -35,21 +35,26 @@ El objetivo es desarrollar un conjunto de habilidades que permitan:
   - Cálculo del dígito verificador para códigos de barras.
   - Simulación de lectura de códigos desde una entrada estándar.
 
-### 4. Dígitos Verificadores
+### 4. Validación de restricciones (Constraint Validation)
+- **Descripción**: Permite validar datos no solo por su formato, sino también por **reglas lógicas y relaciones entre campos**. Se basa en definir restricciones (condiciones que deben cumplirse) y verificar su satisfacción.
+- **Actividades**:
+  -Definición de un sistema de reglas en Python (diccionarios, clases o librerías coo `constraint`)
+
+### 5. Dígitos Verificadores
 - **Descripción**: Análisis de otros sistemas de dígitos de control (módulo 11, ISBN, RUT chileno, etc.).
 - **Actividades**:
   - Implementación de validadores para distintos formatos.
   - Comparativa de algoritmos (módulo 10 vs módulo 11).
   - Manejo de excepciones y casos borde.
 
-### 5. Ejercicios Integradores
+### 6. Ejercicios Integradores
 - **Descripción**: Combinación de todos los conceptos anteriores en ejercicios que requieren múltiples validaciones.
 - **Actividades**:
   - Validación de un formulario que incluya tarjeta, código de barras y RUT.
   - Detección de errores en lotes de datos.
   - Optimización de funciones para validación masiva.
 
-### 6. Proyecto Integrador (Cierre de Semana)
+### 7. Proyecto Integrador (Cierre de Semana)
 - **Descripción**: Aplicación final que consolida todos los aprendizajes en un sistema completo.
 - **Propuesta**: Desarrollar una **herramienta de validación de datos** que permita:
   - Ingresar diferentes tipos de identificadores.
