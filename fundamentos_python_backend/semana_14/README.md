@@ -38,7 +38,10 @@ El objetivo es desarrollar un conjunto de habilidades que permitan:
 ### 4. Validación de restricciones (Constraint Validation)
 - **Descripción**: Permite validar datos no solo por su formato, sino también por **reglas lógicas y relaciones entre campos**. Se basa en definir restricciones (condiciones que deben cumplirse) y verificar su satisfacción.
 - **Actividades**:
-  -Definición de un sistema de reglas en Python (diccionarios, clases o librerías coo `constraint`)
+  - Definición de un sistema de reglas en Python (diccionarios, clases o librerías coo `constraint`)
+  - Validación de formularios complejos con múltiples campos relacionados.
+  - Implementación de un motor de validación por restricciones.
+  - Comparativa con validación por digitos verificadores (enfoques complementarios).
 
 ### 5. Dígitos Verificadores
 - **Descripción**: Análisis de otros sistemas de dígitos de control (módulo 11, ISBN, RUT chileno, etc.).
