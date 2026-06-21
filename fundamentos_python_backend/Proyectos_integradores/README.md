@@ -84,4 +84,7 @@ proyectos_integradores/
 |-----------|---------------------------------------|
 | **Descripción** | Se implementa un sistema de despliegue de modelos de optimización que simula el flujo real de datos en una empresa manufacturera que utiliza IO para decidir cuántos productos fabricar con recursos limitados.  |
 
-
+### Semana 13: Sistema de asignación de Rutas Cross Docking (MDS) ✅ 
+| Conceptos | Algoritmos clásicos |
+|-----------|---------------------------------------|
+| **Descripción** | Sistema backend para la asignación eficiente de rutas en un centro de distribución tipo Cross-Docking. El sistema procesa lotes masivos de solicitudes de envío, aplicando algoritmos de sanitización, ordenamiento y búsqueda para optimizar la asignación de flota de transporte. |
