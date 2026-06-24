@@ -88,3 +88,9 @@ proyectos_integradores/
 | Conceptos | Algoritmos clásicos |
 |-----------|---------------------------------------|
 | **Descripción** | Sistema backend para la asignación eficiente de rutas en un centro de distribución tipo Cross-Docking. El sistema procesa lotes masivos de solicitudes de envío, aplicando algoritmos de sanitización, ordenamiento y búsqueda para optimizar la asignación de flota de transporte. |
+
+### Semana 14: Sistema de Control de Tráfico Marítimo Y Despacho Portuario ✅ 
+| Conceptos | Algoritmos clásicos |
+|-----------|---------------------------------------|
+| **Descripción** | Sistema de control que implementa un flujo secuencial de 4 fases: Fase 1: Validación de Damm, donde se verifica la integridad del ID usando la tabla de Damm, detectando errores de transposición; Fase 2: Ventana de Tiempo: en la que se asegura que los buques lleguen dentro del intervalo autorizado (0-1440 minutos); Fase 3: Conservación de Flujo, donde se valida que descarga = suma(despacho_trenes) para evitar saturaciónn; Fase 4: Consolidación, donde se agrupan los resultados y genera un reporte ejecutivo.|
+
