@@ -94,3 +94,7 @@ proyectos_integradores/
 |-----------|---------------------------------------|
 | **Descripción** | Sistema de control que implementa un flujo secuencial de 4 fases: Fase 1: Validación de Damm, donde se verifica la integridad del ID usando la tabla de Damm, detectando errores de transposición; Fase 2: Ventana de Tiempo: en la que se asegura que los buques lleguen dentro del intervalo autorizado (0-1440 minutos); Fase 3: Conservación de Flujo, donde se valida que descarga = suma(despacho_trenes) para evitar saturaciónn; Fase 4: Consolidación, donde se agrupan los resultados y genera un reporte ejecutivo.|
 
+### Semana 15: Smart-WMS (Sistema Automatizado de Asignación y Balanceo de Carga Logística) ✅
+| Conceptos | Algoritmos clásicos |
+|-----------|---------------------------------------|
+| **Descripción** | Se utilizan Árboles Binarios de Búsqueda (BST) para indezar SKUs eficientemente (O(log N)), Recorridos In-order para ordenar el inventario, Post-order para acumular pesos físicos desde las hojas y calcular factores de balance estructural, y Eliminación de Nodos para despachos y purgas en bloque. El sistema arroja un manifiesto ordenado de productos, alertas automáticas de desbalanceo en la carga de los racks, el peso total soportado por la infraestructura y la actualización en tiempo real del inventario tras despachar pedidos críticos o purgar lotes obsoletos.|
