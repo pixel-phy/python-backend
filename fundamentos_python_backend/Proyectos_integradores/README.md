@@ -90,11 +90,20 @@ proyectos_integradores/
 | **Descripción** | Sistema backend para la asignación eficiente de rutas en un centro de distribución tipo Cross-Docking. El sistema procesa lotes masivos de solicitudes de envío, aplicando algoritmos de sanitización, ordenamiento y búsqueda para optimizar la asignación de flota de transporte. |
 
 ### Semana 14: Sistema de Control de Tráfico Marítimo Y Despacho Portuario ✅ 
-| Conceptos | Algoritmos clásicos |
+| Conceptos | Algoritmos de búsqueda |
 |-----------|---------------------------------------|
 | **Descripción** | Sistema de control que implementa un flujo secuencial de 4 fases: Fase 1: Validación de Damm, donde se verifica la integridad del ID usando la tabla de Damm, detectando errores de transposición; Fase 2: Ventana de Tiempo: en la que se asegura que los buques lleguen dentro del intervalo autorizado (0-1440 minutos); Fase 3: Conservación de Flujo, donde se valida que descarga = suma(despacho_trenes) para evitar saturaciónn; Fase 4: Consolidación, donde se agrupan los resultados y genera un reporte ejecutivo.|
 
 ### Semana 15: Smart-WMS (Sistema Automatizado de Asignación y Balanceo de Carga Logística) ✅
-| Conceptos | Algoritmos clásicos |
+| Conceptos | Estructuras de datos no lineales 'Árboles'|
 |-----------|---------------------------------------|
 | **Descripción** | Se utilizan Árboles Binarios de Búsqueda (BST) para indezar SKUs eficientemente (O(log N)), Recorridos In-order para ordenar el inventario, Post-order para acumular pesos físicos desde las hojas y calcular factores de balance estructural, y Eliminación de Nodos para despachos y purgas en bloque. El sistema arroja un manifiesto ordenado de productos, alertas automáticas de desbalanceo en la carga de los racks, el peso total soportado por la infraestructura y la actualización en tiempo real del inventario tras despachar pedidos críticos o purgar lotes obsoletos.|
+
+### Semana 16: Solver Logístico Multi-Criterio ✅
+| Conceptos | Estructuras de datos no lineales 'Grafos'|
+|-----------|---------------------------------------|
+| **Descripción** | Se optimizan rutas de distribución en una red de cadena de suministro con fábricas, CEDIS y clientes. **Módulo 1**: Audita la resiliencia de la red identificando clientes que quedan aislados cuando fallan nodos de rutas (huelgas, clima, aduanas).
+**Módulo 2:** Encuentra la ruta óptima desde una fábrica a un cliente usando tres criterios (costo, mínimo, tiempo mínimo o máximo confiabilidad), filtrando automáticamente rutas con capacidad insuficiente para el peso del envío.
+**Módulo 3:** Verifica la capacidad de almacenamiento de los CEDIS intermedios, detecta cuellos de botella por saturación y propone rutas alternativas evitando los nodos con capacidad insuficiente.
+El sistema integra teoría de grafos, optimización multi-objetivo y análisis de capacidad para tomar decisiones loǵisticas robustas y eficientes.|
+
