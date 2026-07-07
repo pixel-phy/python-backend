@@ -1,0 +1,23 @@
+--- REPORTE DE NODOS ---
+ID | Nombre       | X    | Y   | Demanda | Oferta
+-------------------------------------------------
+N1 | Bogotá       | 0.0  | 0.0 | 100.0   | 0.0   
+N2 | Medellín     | 4.0  | 3.0 | 0.0     | 70.0  
+N3 | Cali         | 6.0  | 5.0 | 0.0     | 0.0   
+N4 | Barranquilla | 8.0  | 2.0 | 0.0     | 50.0  
+N5 | Cartagena    | 10.0 | 4.0 | 0.0     | 0.0   
+
+--- REPORTE DE RUTAS ---
+Origen | Destino | Distancia | Costo | Capacidad | Flujo
+--------------------------------------------------------
+N1     | N2      | 5.0       | $10.0 | 200.0     | 40.0 
+N1     | N3      | 8.0       | $16.0 | 150.0     | 60.0 
+N2     | N3      | 3.0       | $6.0  | 100.0     | 80.0 
+N2     | N4      | 6.0       | $12.0 | 120.0     | 40.0 
+N3     | N4      | 4.0       | $8.0  | 80.0      | 0.0  
+N4     | N5      | 5.0       | $10.0 | 90.0      | 90.0 
+N3     | N5      | 7.0       | $14.0 | 60.0      | 60.0 
+
+--- ANÁLISIS DE OPTIMIZACIÓN (N1 -> N5) ---
+Ruta Más Corta (Dijkstra Distancia): N1 -> N3 -> N5
+Ruta Menor Costo (Dijkstra Costo)  : N1 -> N3 -> N5

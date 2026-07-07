@@ -107,3 +107,18 @@ proyectos_integradores/
 **Módulo 3:** Verifica la capacidad de almacenamiento de los CEDIS intermedios, detecta cuellos de botella por saturación y propone rutas alternativas evitando los nodos con capacidad insuficiente.
 El sistema integra teoría de grafos, optimización multi-objetivo y análisis de capacidad para tomar decisiones loǵisticas robustas y eficientes.|
 
+### Semana 17: Sistema de Gestión de Red de Transporte Operativa ✅
+| Conceptos | Clases POO|
+|-----------|---------------------------------------|
+| **Descripción** | Sistema completo de POO en Python que modela, simula y optimiza redes de distribución logística. 1. **Gestión de Nodos y Rutas**: CRUD completo con encapsulamiento, properties validadas y relaciones de composición/agregación.
+
+2. **Simulación de Flujo:** Procesa ofertas y demandas, moviliza flujo a través de rutas con capacidad limitada y genera estadísticas de rendimiento.
+
+3. **Optimización Avanzada:** Dijkstra para ruta más corta (distancia/costo), Ford-Fulkerson para flujo máximo y Kruskal para árbol de expansión mínima.
+
+4. **Arquitectura Modular:** 8 clases interconectadas (GestorNodos, GestorRutas, SimuladorRed, OptimizadorRutas, ReporteadorRed, SistemaRed, Nodo, Ruta).
+
+5. **Reportes Profesionales:** Generación de tablas formateadas, análisis de optimización y exportación a CSV/TXT para análisis externos.
+
+6. **Coordinación Central:** SistemaRed orquesta todos los módulos, demostrando un flujo completo desde carga de datos → simulación → optimización → generación de reportes. |
+

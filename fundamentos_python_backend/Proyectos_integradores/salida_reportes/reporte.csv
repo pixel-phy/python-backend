@@ -1,0 +1,7 @@
+--- NODOS ---
+ID,Nombre,X,Y,Demanda,Oferta
+N1,Bogotá,0.0,0.0,100.0,0.0
+N2,Medellín,4.0,3.0,0.0,70.0
+N3,Cali,6.0,5.0,0.0,0.0
+N4,Barranquilla,8.0,2.0,0.0,50.0
+N5,Cartagena,10.0,4.0,0.0,0.0
